@@ -3,13 +3,14 @@
 ### Setting-up Dev Environment
 
 ```bash
-npm install react react-dom react-router --save
+npm install --save react react-dom react-router
 ```
 
 ```bash
-npm install webpack webpack-dev-server \
-            babel-core babel-loader \
-            babel-preset-es2015 babel-preset-react --save-dev
+npm install --save-dev \
+    webpack webpack-dev-server \
+    babel-core babel-loader \
+    babel-preset-es2015 babel-preset-react 
 ```
 
 ```bash

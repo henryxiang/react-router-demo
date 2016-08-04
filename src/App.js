@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import _ from 'lodash';
 
 class App extends Component {
   render() {
     return (
-      <div>React Router Demo</div>
+      <div>React Demo {_.VERSION}</div>
     );
   }
 }
