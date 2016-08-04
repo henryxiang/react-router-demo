@@ -6,10 +6,10 @@ const About = () => <div><Links />About</div>;
 const Contact = () => <div><Links />Contact</div>;
 
 const Links = () => 
-  <ul>
-    <li><Link to="/">Home</Link></li>
-    <li><Link to="/about">About</Link></li>
-    <li><Link to="/contact">Contact</Link></li>
+  <ul className="nav-link">
+    <li><Link activeStyle={{color:'green'}} to="/">Home</Link></li>
+    <li><Link activeStyle={{color:'green'}} to="/about">About</Link></li>
+    <li><Link activeStyle={{color:'green'}} to="/contact">Contact</Link></li>
   </ul>
 
 

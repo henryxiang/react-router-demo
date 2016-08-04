@@ -34,7 +34,7 @@ import { Router, Route, Link, hashHistory } from 'react-router'
     return (
       <Router history={hashHistory}>
         <Route path="/" component={Home}>
-          <Route path="/about" compnent="{About}" />
+          <Route path="/about" component="{About}" />
           <Route path="/contact" component="{Contact}" />
         </Route>
       </Router>
