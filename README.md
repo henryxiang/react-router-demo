@@ -23,4 +23,22 @@ mkdir src && cd src && touch index.html App.js main.js
 
 * index.html - main app template
 * App.js - main app component
-* main.js - app entry point
+
+
+### React-Router Basics
+
+```javascript
+import { Router, Route, Link, hashHistory } from 'react-router'
+...
+  render() {
+    return (
+      <Router history={hashHistory}>
+        <Route path="/" component={Home}>
+          <Route path="/about" compnent="{About}" />
+          <Route path="/contact" component="{Contact}" />
+        </Route>
+      </Router>
+    )
+  }
+...
+```
